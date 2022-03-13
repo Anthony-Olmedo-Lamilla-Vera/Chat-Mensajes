@@ -44,6 +44,7 @@ function Sala() {
         userName: State_nav_sala.userName,
         Mensaje: Mensaje,
       });
+      setMensaje("");
     }
   }
 

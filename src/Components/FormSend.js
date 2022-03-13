@@ -9,7 +9,7 @@ function FormSend({ Mensaje, setMensaje, SendMensaje }) {
         cols={50}
         rows={5}
         editable="none"
-        className="border-15 border-black font-regular block mx-auto my-10 bg-gray-200 rounded px-8 py-2"
+        className="border-15 border-black font-regular block mx-auto my-10 bg-gray-200 rounded w-4/5 px-8 py-2"
         placeholder="Escriba un mensaje"
         type="text"
       />

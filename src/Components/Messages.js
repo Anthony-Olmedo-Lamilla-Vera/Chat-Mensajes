@@ -30,7 +30,7 @@ function Messages() {
   }, 100);
 
   return (
-    <div className="bg-green-50 h-80 py-5 px-8 overflow-y-scroll w-2/4 mx-auto scroll">
+    <div className="bg-green-50 h-80 py-5 px-8 overflow-y-scroll w-4/5    mx-auto scroll">
       {MensajesChat
         ? MensajesChat.map((Item, key) => {
             return userName === Item.userName ? (

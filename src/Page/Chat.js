@@ -18,6 +18,7 @@ function Chat() {
         userName: userName,
         message: Mensaje,
       });
+      setMensaje("");
     }
   }
 
@@ -25,7 +26,7 @@ function Chat() {
     <>
       <div>
         <Head />
-        <h1 className="text-center text-2xl font-semibold">
+        <h1 className="text-center laptop:text-2xl tablet:text-xl tablet:my-5 font-semibold">
           Inicio Chat Global con el UserName{" "}
           <p className="text-red-500">---* {userName} *---- </p>
         </h1>

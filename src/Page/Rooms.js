@@ -29,6 +29,7 @@ function Rooms() {
         setName("");
       } else {
         setMsgAdv(msg);
+        setName("");
 
         console.log("sala no existe");
       }
@@ -43,6 +44,7 @@ function Rooms() {
         console.log(msg);
         setName("");
       });
+      setName("");
     }
   };
 
@@ -51,8 +53,8 @@ function Rooms() {
       <Head />
 
       <main className="min-h-screen bg-black flex ">
-        <FormInput submit={JoinRooms} nameButton="Ingresar a Sala" />
-        <FormInput submit={CreateRoom} nameButton="Crear Sala" />
+        <FormInput submit={JoinRooms} nameButton="Ingresar " />
+        <FormInput submit={CreateRoom} nameButton="Crear " />
       </main>
     </div>
   );
