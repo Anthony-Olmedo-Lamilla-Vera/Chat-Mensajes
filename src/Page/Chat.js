@@ -4,7 +4,7 @@ import { io } from "socket.io-client";
 import FormSend from "../Components/FormSend";
 import Head from "../Components/Head";
 import Messages from "../Components/Messages";
-export const socket = io("http://localhost:4000");
+export const socket = io("https://chatttio.herokuapp.com/");
 
 function Chat() {
   let location = useLocation();

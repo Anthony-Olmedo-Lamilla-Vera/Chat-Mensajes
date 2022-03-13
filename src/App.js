@@ -1,11 +1,10 @@
 import "./App.css";
 import Chat from "./Page/Chat";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import LoginUser from "./Page/LoginUser";
 import Rooms from "./Page/Rooms";
-import Head from "./Components/Head";
 import Sala from "./Page/Sala";
-import PageGit from "./Page/pagegit";
+import PageGit from "./Page/PageGit";
 
 function App() {
   return (
